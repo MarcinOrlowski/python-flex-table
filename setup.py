@@ -17,9 +17,9 @@
 #
 # source venv/activate.fish
 # python setup.py sdist bdist_wheel
-# twine upload dist/*
+# twine upload dist/*2.7.0*
 #
-# pip install --upgrade dist/flex_text_table-2.5.0-py3-none-any.whl
+# pip install --upgrade dist/flex_text_table-2.7.0-py3-none-any.whl
 
 from flextable.const import Const
 from setuptools import setup, find_packages
